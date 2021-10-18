@@ -1,0 +1,10 @@
+six
+m3u8
+colorama
+requests
+unidecode
+pyOpenSSL
+cloudscraper
+requests[security]
+yt-dlp
+protobuf
