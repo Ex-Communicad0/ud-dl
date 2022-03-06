@@ -29,7 +29,7 @@ class YTDL:
         command = [
             "yt-dlp",
             "--force-generic-extractor", "--allow-unplayable-formats",,
-            "--downloader", "aria2c", "--fixup", "never", "--concurrent-fragments" "20"
+            "--downloader", "aria2c", "--fixup", "never", "--concurrent-fragments", "20",
             "-k",
             "-o",
             f"{self.filepath}.%(ext)s",
