@@ -28,7 +28,7 @@ class YTDL:
         """
         command = [
             "yt-dlp",
-            "--force-generic-extractor", "--allow-unplayable-formats",,
+            "--force-generic-extractor", "--allow-unplayable-formats",
             "--downloader", "aria2c", "--fixup", "never", "--concurrent-fragments", "20",
             "-k",
             "-o",
